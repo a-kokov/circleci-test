@@ -7,7 +7,7 @@ context('test suite', () => {
   
     it('test', () => {
         cy.xpath('//input[@role=\'combobox\']')
-            .should('not.be.visible')
+            .should('be.visible')
       })
 })
   
